@@ -1,0 +1,5 @@
+# C++ related files
+*.o
+*.d
+*.so
+*.out
