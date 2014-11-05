@@ -48,7 +48,7 @@ case "$1" in
 "-R")
     ls $2 &> /dev/null
     if [ $? != 0 -o "$2X" == "X" ]; then
-        echo "#### error: please check the directory name follow the '-R' option!"
+        echo "#### error: please check the directory name following the '-R' option!"
         exit 1
     fi
     convert_rescursive $2
